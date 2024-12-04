@@ -1,5 +1,5 @@
 {
-  "content": ["projects"],
+  "content": ["posts"],
   "i18n": {
     "default_locale": "fr",
     "locales": ["en", "fr"]
