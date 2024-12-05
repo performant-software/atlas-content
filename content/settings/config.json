@@ -6,6 +6,9 @@
   },
   "search": {
     "cluster_radius": 6,
+    "result_card": {
+      "title": "name"
+    },
     "timeline": false
   },
   "layers": [
@@ -49,8 +52,6 @@
   },
   "core_data": {
     "url": "https://uqam.coredata.cloud",
-    "project_ids": [
-      31
-    ]
+    "project_ids": ["31"]
   }
 }
