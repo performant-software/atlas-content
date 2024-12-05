@@ -52,6 +52,6 @@
   },
   "core_data": {
     "url": "https://uqam.coredata.cloud",
-    "project_ids": ["31"]
+    "project_ids": ["31", "71"]
   }
 }
