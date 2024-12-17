@@ -10,8 +10,8 @@
       "title": "name"
     },
     "timeline": false,
-    "maxZoom": 8,
-    "zoomToPlace": false
+    "max_zoom": 8,
+    "zoom_to_place": false
   },
   "layers": [
     {
