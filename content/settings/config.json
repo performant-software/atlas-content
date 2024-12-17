@@ -9,7 +9,9 @@
     "result_card": {
       "title": "name"
     },
-    "timeline": false
+    "timeline": false,
+    "maxZoom": 8,
+    "zoomToPlace": false
   },
   "layers": [
     {
