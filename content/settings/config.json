@@ -9,7 +9,7 @@
     "result_card": {
       "title": "name"
     },
-    "timeline": false,
+    "timeline": true,
     "max_zoom": 8,
     "zoom_to_place": false
   },
