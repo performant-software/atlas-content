@@ -5,13 +5,17 @@
     "locales": ["en", "fr"]
   },
   "search": {
-    "cluster_radius": 6,
     "result_card": {
       "title": "name"
     },
     "timeline": false,
+    "route": "/places"
+  },
+  "map": {
+    "cluster_radius": 6,
     "max_zoom": 8,
-    "zoom_to_place": false
+    "zoom_to_place": false,
+    "geometry": "geometry"
   },
   "layers": [
     {
