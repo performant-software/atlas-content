@@ -12,7 +12,6 @@
     "route": "/places"
   },
   "map": {
-    "cluster_radius": 6,
     "max_zoom": 8,
     "zoom_to_place": false,
     "geometry": "geometry"
