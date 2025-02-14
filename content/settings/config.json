@@ -11,7 +11,7 @@
   },
   "layers": [
     {
-      "name": "Test Layer",
+      "name": "test",
       "layer_type": "georeference",
       "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/01.json",
       "overlay": true
