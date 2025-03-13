@@ -45,7 +45,8 @@
     "max_zoom": 8,
     "zoom_to_place": false
   },
-  "search": {    
+  "search": {
+    "geosearch": true,
     "result_card": {
       "title": "name"
     },
