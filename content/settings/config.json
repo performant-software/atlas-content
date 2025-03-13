@@ -41,6 +41,7 @@
     }
   ],
   "map": {
+    "cluster_radius": 6,
     "geometry": "geometry",
     "max_zoom": 8,
     "zoom_to_place": false
