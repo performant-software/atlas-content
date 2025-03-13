@@ -1,17 +1,13 @@
 {
+  "branding": {
+    "header_hide_title": false,
+    "footer_hide_title": false,
+    "footer_login": true
+  },
   "content": ["posts"],
   "i18n": {
     "default_locale": "fr",
     "locales": ["en", "fr"]
-  },
-  "search": {
-    "cluster_radius": 6,
-    "result_card": {
-      "title": "name"
-    },
-    "timeline": false,
-    "max_zoom": 8,
-    "zoom_to_place": false
   },
   "layers": [
     {
@@ -44,6 +40,16 @@
       "overlay": true
     }
   ],
+  "map": {
+    "geometry": "geometry",
+    "max_zoom": 8,
+    "zoom_to_place": false
+  },
+  "search": {    
+    "result_card": {
+      "title": "name"
+    }
+  },
   "typesense": {
     "host": "2km5psj6h9antqeip-1.a1.typesense.net",
     "port": 443,
