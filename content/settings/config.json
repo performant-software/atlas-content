@@ -48,7 +48,8 @@
   "search": {    
     "result_card": {
       "title": "name"
-    }
+    },
+    "route": "/places"
   },
   "typesense": {
     "host": "2km5psj6h9antqeip-1.a1.typesense.net",
