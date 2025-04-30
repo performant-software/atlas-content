@@ -5,6 +5,10 @@
     "footer_login": true
   },
   "content": ["posts"],
+  "core_data": {
+    "url": "https://uqam.coredata.cloud",
+    "project_ids": ["31", "71"]
+  }
   "i18n": {
     "default_locale": "fr",
     "locales": ["en", "fr"]
@@ -40,29 +44,26 @@
       "overlay": true
     }
   ],
-  "map": {
-    "geometry": "geometry",
-    "max_zoom": 8,
-    "zoom_to_place": false
-  },
-  "search": {
+  "search": [{
     "geosearch": true,
+    "name": "places",
+    "route": "/places",
     "result_card": {
       "title": "name"
     },
-    "route": "/places"
-  },
-  "typesense": {
-    "host": "2km5psj6h9antqeip-1.a1.typesense.net",
-    "port": 443,
-    "protocol": "https",
-    "api_key": "8o051kUN1HK5FEGV4K6LZy8Zal3wyiAj",
-    "index_name": "atlas",
-    "query_by": "name,names",
-    "default_sort": "name"
-  },
-  "core_data": {
-    "url": "https://uqam.coredata.cloud",
-    "project_ids": ["31", "71"]
-  }
+    "map": {
+      "geometry": "geometry",
+      "max_zoom": 8,
+      "zoom_to_place": false
+    },
+    "typesense": {
+      "host": "2km5psj6h9antqeip-1.a1.typesense.net",
+      "port": 443,
+      "protocol": "https",
+      "api_key": "8o051kUN1HK5FEGV4K6LZy8Zal3wyiAj",
+      "index_name": "atlas",
+      "query_by": "name,names",
+      "default_sort": "name"
+    }
+  }]
 }
