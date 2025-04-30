@@ -8,7 +8,7 @@
   "core_data": {
     "url": "https://uqam.coredata.cloud",
     "project_ids": ["31", "71"]
-  }
+  },
   "i18n": {
     "default_locale": "fr",
     "locales": ["en", "fr"]
