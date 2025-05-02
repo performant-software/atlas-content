@@ -56,6 +56,10 @@
       "max_zoom": 8,
       "zoom_to_place": false
     },
+    "timeline": {
+      "date_range_facet": "event_range_facet",
+      "event_path": "a86fb6d4-0582-4a43-ad10-c5e782c8bce0"
+    },
     "typesense": {
       "host": "2km5psj6h9antqeip-1.a1.typesense.net",
       "port": 443,
