@@ -1,6 +1,10 @@
 {
   "title": "Atlas du patrimoine urbain",
   "footer": {
-    "allow_login": true
+    "allow_login": true,
+    "hide_title": false
+  },
+  "header": {
+    "hide_title": false
   }
 }
