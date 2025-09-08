@@ -73,7 +73,12 @@
         "api_key": "8o051kUN1HK5FEGV4K6LZy8Zal3wyiAj",
         "index_name": "atlas",
         "query_by": "name,names",
-        "default_sort": "name"
+        "default_sort": "name",
+        "facets": {
+          "include": [
+            "owner_project.name_facet"
+          ]
+        }
       }
     }
   ]
