@@ -55,7 +55,12 @@
       "name": "places",
       "route": "/places",
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "attributes": [
+          {
+            "name": "owner_project.name"
+          }
+        ]
       },
       "map": {
         "geometry": "geometry",
