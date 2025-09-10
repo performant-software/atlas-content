@@ -56,9 +56,10 @@
       "route": "/places",
       "result_card": {
         "title": "name",
-        "attributes": [
+        "tags": [
           {
-            "name": "owner_project.name"
+            "attribute": "owner_project.name",
+            "primary": true
           }
         ]
       },
