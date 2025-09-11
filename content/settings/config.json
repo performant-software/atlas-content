@@ -59,7 +59,7 @@
         "tags": [
           {
             "name": "owner_project.name",
-            "primary": true
+            "secondary": true
           }
         ]
       },
