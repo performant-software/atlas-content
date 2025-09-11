@@ -58,7 +58,7 @@
         "title": "name",
         "tags": [
           {
-            "attribute": "owner_project.name",
+            "name": "owner_project.name",
             "primary": true
           }
         ]
