@@ -1,6 +1,7 @@
 {
   "content": {
     "collections": [
+      "Test",
       "posts"
     ]
   },
