@@ -50,6 +50,10 @@
   ],
   "search": [
     {
+      "name": "person",
+      "route": "/person"
+    },
+    {
       "name": "places",
       "route": "/places",
       "geosearch": true,
