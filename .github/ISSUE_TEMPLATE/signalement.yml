@@ -1,0 +1,41 @@
+name: "Signalement / Report"
+description: "Bogue, demande ou question concernant atlaspatrimoine.ca ou la base FairData — Bug, request or question about the site or the FairData database"
+title: "[Court résumé / Short summary]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Remplissez ce que vous pouvez ; vous pouvez écrire en français.
+        Thanks! Fill in what you can; French is fine.
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type"
+      options:
+        - "Bogue / Bug"
+        - "Demande / Request"
+        - "Question"
+        - "Données / Data (FairData)"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: "Page ou enregistrement concerné / Page or record"
+      description: "Adresse (URL) de la page du site ou de l'enregistrement FairData — URL of the site page or FairData record"
+      placeholder: "https://atlaspatrimoine.ca/..."
+  - type: textarea
+    id: observed
+    attributes:
+      label: "Ce que vous avez observé / What you saw"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Ce que vous attendiez / What you expected"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Captures d'écran / Screenshots"
+      description: "Glissez-déposez des images ici — Drag and drop images here"
