@@ -1,10 +1,13 @@
 {
   "title": "Atlas du patrimoine urbain",
   "footer": {
-    "allow_login": true,
+    "allow_login": false,
     "hide_title": false
   },
   "header": {
     "hide_title": false
-  }
+  },
+  "header_capitalization": "uppercase",
+  "header_font_weight": "700",
+  "tertiary_color": "#999999"
 }

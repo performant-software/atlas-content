@@ -1,3 +1,14 @@
 {
-  "items": []
+  "items": [
+    {
+      "label": "Carte",
+      "href": "/fr/search/places/",
+      "_template": "URL"
+    },
+    {
+      "label": "Projets",
+      "href": "/fr/posts/",
+      "_template": "URL"
+    }
+  ]
 }

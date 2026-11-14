@@ -2,7 +2,10 @@
   "content": {
     "collections": [
       "posts"
-    ]
+    ],
+    "posts_config": {
+      "layout": "grid"
+    }
   },
   "core_data": {
     "url": "https://fairdata.staging.performant.studio",
