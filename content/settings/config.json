@@ -5,11 +5,9 @@
     ]
   },
   "core_data": {
-    "url": "https://uqam.coredata.cloud",
+    "url": "https://fairdata.staging.performant.studio",
     "project_ids": [
-      "73",
-      "31",
-      "71"
+      "317"
     ]
   },
   "i18n": {
@@ -23,7 +21,7 @@
     {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
-      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=lQRuioZ4vtGglGuJVPll"
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=MAPTILER_KEY"
     },
     {
       "name": "USGS Imagery Topo (MapServer)",
@@ -63,14 +61,14 @@
       },
       "timeline": {
         "date_range_facet": "event_range_facet",
-        "event_path": "a86fb6d4-0582-4a43-ad10-c5e782c8bce0"
+        "event_path": "fc8ff2da-a181-4bc9-8275-7f5acfe7fdcb"
       },
       "typesense": {
-        "host": "2km5psj6h9antqeip-1.a1.typesense.net",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "8o051kUN1HK5FEGV4K6LZy8Zal3wyiAj",
-        "index_name": "atlas",
+        "api_key": "sME649ndE2n43lvsL24EFOHhtbMZ5SZP",
+        "index_name": "atlas_rehearsal",
         "query_by": "name,names",
         "default_sort": "name",
         "facets": {
