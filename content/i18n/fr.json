@@ -76,5 +76,8 @@
   "t_fd8b3360ef414d8fba83d24f0bc367bd": "Destruction",
   "t_allPosts": "Tous les projets",
   "t_places": "Lieux",
-  "t_backTo": "Retour : {{label}}"
+  "t_backTo": "Retour : {{label}}",
+  "t_filterResultsBy": "Filtres",
+  "t_owner_project": "Projet",
+  "t_facetLabel": "{{relationship}} : {{field}}"
 }

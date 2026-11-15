@@ -76,10 +76,33 @@
         "default_sort": "name",
         "facets": {
           "include": [
-            "owner_project.name_facet"
+            "owner_project.name_facet",
+            "12309ff8-4495-46dc-ac18-c0c3c086bbe4.name_facet",
+            "fc8ff2da-a181-4bc9-8275-7f5acfe7fdcb.start_year_facet",
+            "0d79f11e-0156-4021-87ac-15d6a5f16228.names_facet",
+            "0d79f11e-0156-4021-87ac-15d6a5f16228.cbb33f95-1418-43dc-8923-0a8c52d50b02_facet",
+            "27ad6e2e-a614-4654-9238-38aeb0fafdb8.names_facet"
           ]
         }
-      }
+      },
+      "facets": [
+        {
+          "name": "12309ff8-4495-46dc-ac18-c0c3c086bbe4.name_facet",
+          "type": "select"
+        },
+        {
+          "name": "0d79f11e-0156-4021-87ac-15d6a5f16228.names_facet",
+          "type": "select"
+        },
+        {
+          "name": "27ad6e2e-a614-4654-9238-38aeb0fafdb8.names_facet",
+          "type": "select"
+        },
+        {
+          "name": "0d79f11e-0156-4021-87ac-15d6a5f16228.cbb33f95-1418-43dc-8923-0a8c52d50b02_facet",
+          "type": "list"
+        }
+      ]
     }
   ]
 }
